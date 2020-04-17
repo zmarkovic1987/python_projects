@@ -1,0 +1,57 @@
+
+04/17/2020 12:03:51 AM -SeleniumDriver -INFO -Element Found with: Login and Locator type: link text:
+04/17/2020 12:03:51 AM -SeleniumDriver -INFO -Clicked on element with locator: Loginlocator Type : link text:
+04/17/2020 12:03:54 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:03:54 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:03:54 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:03:55 AM -SeleniumDriver -INFO -Sent data on element with locator: user_emaillocator Type : id:
+04/17/2020 12:03:55 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:03:55 AM -SeleniumDriver -INFO -Sent data on element with locator: user_passwordlocator Type : id:
+04/17/2020 12:03:55 AM -SeleniumDriver -INFO -Element Found with: input[name='commit'] and Locator type: css selector:
+04/17/2020 12:03:57 AM -SeleniumDriver -INFO -Clicked on element with locator: input[name='commit']locator Type : css selector:
+04/17/2020 12:03:58 AM -SeleniumDriver -INFO -Element Found with: //div[contains(text(), "Invalid email or password")] and Locator type: xpath:
+04/17/2020 12:03:58 AM -SeleniumDriver -INFO -Element with Locator: //div[contains(text(), "Invalid email or password")] and Locator type: xpathis present:
+04/17/2020 12:03:58 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL Failed Log in Unsuccessful:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element NOT Found with: Login and Locator type: link text:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Cant click on element with locator: Loginlocator Type : link text:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Sent data on element with locator: user_emaillocator Type : id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Sent data on element with locator: user_passwordlocator Type : id:
+04/17/2020 12:04:05 AM -SeleniumDriver -INFO -Element Found with: input[name='commit'] and Locator type: css selector:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -Clicked on element with locator: input[name='commit']locator Type : css selector:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL  Title is Incorrect:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -Element Found with: //span[contains(text(), "Test")] and Locator type: xpath:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -Element with Locator: //span[contains(text(), "Test")] and Locator type: xpathis present:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL Loggin Failed:
+04/17/2020 12:04:08 AM -SeleniumDriver -INFO -Test Valid Login ### TEST SUCCESSFUL:
+04/17/2020 12:08:33 AM -SeleniumDriver -INFO -Element Found with: Login and Locator type: link text:
+04/17/2020 12:08:33 AM -SeleniumDriver -INFO -Clicked on element with locator: Loginlocator Type : link text:
+04/17/2020 12:08:37 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:08:37 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:08:37 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:08:37 AM -SeleniumDriver -INFO -Sent data on element with locator: user_emaillocator Type : id:
+04/17/2020 12:08:37 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:08:38 AM -SeleniumDriver -INFO -Sent data on element with locator: user_passwordlocator Type : id:
+04/17/2020 12:08:38 AM -SeleniumDriver -INFO -Element Found with: input[name='commit'] and Locator type: css selector:
+04/17/2020 12:08:39 AM -SeleniumDriver -INFO -Clicked on element with locator: input[name='commit']locator Type : css selector:
+04/17/2020 12:08:39 AM -SeleniumDriver -INFO -Element Found with: //div[contains(text(), "Invalid email or password")] and Locator type: xpath:
+04/17/2020 12:08:39 AM -SeleniumDriver -INFO -Element with Locator: //div[contains(text(), "Invalid email or password")] and Locator type: xpathis present:
+04/17/2020 12:08:39 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL Failed Log in Unsuccessful:
+04/17/2020 12:08:46 AM -SeleniumDriver -INFO -Element NOT Found with: Login and Locator type: link text:
+04/17/2020 12:08:46 AM -SeleniumDriver -INFO -Cant click on element with locator: Loginlocator Type : link text:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Element Found with: user_email and Locator type: id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Sent data on element with locator: user_emaillocator Type : id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Element Found with: user_password and Locator type: id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Sent data on element with locator: user_passwordlocator Type : id:
+04/17/2020 12:08:47 AM -SeleniumDriver -INFO -Element Found with: input[name='commit'] and Locator type: css selector:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -Clicked on element with locator: input[name='commit']locator Type : css selector:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL  Title is Incorrect:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -Element Found with: //span[contains(text(), "Test")] and Locator type: xpath:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -Element with Locator: //span[contains(text(), "Test")] and Locator type: xpathis present:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -###VERIFICATION SUCCESSFUL Loggin Failed:
+04/17/2020 12:08:51 AM -SeleniumDriver -INFO -Test Valid Login ### TEST SUCCESSFUL:

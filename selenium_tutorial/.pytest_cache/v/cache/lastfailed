@@ -1,0 +1,3 @@
+{
+  "pytest_package/test_class_demo.py::TestClassDemo::test_method_A": true
+}

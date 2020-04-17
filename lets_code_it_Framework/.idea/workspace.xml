@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f129515e-6dd1-49b5-a096-4847848a6342" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a5CwCnAkTcbZKxoOyK0Tz2P6Vp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zarko\Documents\python_projects\lets_code_it_Framework\tests" />
+      <recent name="C:\Users\Zarko\Documents\python_projects\lets_code_it_Framework\utilities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="lets_code_it_Framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python382\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python">
+      <module name="lets_code_it_Framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python382\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/home_page" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/home_page/login_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f129515e-6dd1-49b5-a096-4847848a6342" name="Default Changelist" comment="" />
+      <created>1586016303891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586016303891</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2372" y="95" key="#Log_Highlighting_(ideolog)" timestamp="1586981853696">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2372" y="95" key="#Log_Highlighting_(ideolog)/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586981853696" />
+    <state x="2334" y="168" width="1092" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586018052316">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="168" width="1092" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586018052316" />
+    <state x="552" y="221" key="FileChooserDialogImpl" timestamp="1587123833222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="221" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587123833222" />
+    <state x="2610" y="294" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586890156226" />
+    <state width="1893" height="268" key="GridCell.Tab.0.bottom" timestamp="1586639088430">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586639088430" />
+    <state width="1893" height="268" key="GridCell.Tab.0.center" timestamp="1586639088430">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="268" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586639088430" />
+    <state width="1893" height="268" key="GridCell.Tab.0.left" timestamp="1586639088430">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="268" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586639088430" />
+    <state width="1893" height="268" key="GridCell.Tab.0.right" timestamp="1586639088430">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="268" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586639088430" />
+    <state x="473" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1587119681217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587119681217" />
+    <state x="2511" y="302" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587115921827" />
+    <state x="473" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586731471426" />
+  </component>
+</project>

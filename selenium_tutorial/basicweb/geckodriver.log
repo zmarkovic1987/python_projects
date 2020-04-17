@@ -1,0 +1,157 @@
+1585171117919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Zarko\\AppData\\Local\\Temp\\rust_mozprofileThhRkK"
+1585171122374	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585171122375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585171122375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 6396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6396, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1585171139909	Marionette	INFO	Listening on port 52680
+1585171140221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 6396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/ch[rChild 94omium6/4s,r cC/hcrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332h
+rome/common/ipc_channel_win.cc, line 332
+[Child 224, Chrome_ChildThr[Parent 6396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7876, 1585171176803	Marionette	INFO	Stopped listening on port 52680
+1585171182612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Zarko\\AppData\\Local\\Temp\\rust_mozprofilet4pXiC"
+1585171184128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585171184128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585171184128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1585171187417	Marionette	INFO	Listening on port 52791
+1585171187850	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/1.10.2/dist/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 8960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome1585171392571	Marionette	INFO	Stopped listening on port 52791
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sion 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1585171389034	Marionette	INFO	Listening on port 52874
+1585171389498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/1.10.2/dist/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 11728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11064, Chrome_ChildThread] WARNING: pipe er[Parent 11728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1585171410995	Marionette	INFO	Stopped listening on port 52874
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5960, Chr1585173296775	geckodriver	INFO	geckodriver 0.21.0
+1585173296790	geckodriver	INFO	Listening on 127.0.0.1:53051
+1585173299703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Zarko\\AppData\\Local\\Temp\\rust_mozprofile.Dj4qUnMcuZl3"
+1585173300496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585173300497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585173300497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1585173300624	Marionette	TRACE	Received observer notification profile-after-change
+1585173301015	Marionette	TRACE	Received observer notification toplevel-window-ready
+1585173301058	Marionette	TRACE	Received observer notification command-line-startup
+1585173301058	Marionette	TRACE	Received observer notification nsPref:changed
+1585173301058	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1585173301945	Marionette	TRACE	Received observer notification toplevel-window-ready
+1585173303939	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1585173303939	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1585173304048	Marionette	TRACE	Received observer notification domwindowclosed
+1585173304049	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1585173304209	Marionette	TRACE	All scripts recorded.
+1585173304209	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1585173304209	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1585173304210	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1585173304210	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1585173304210	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1585173304210	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1585173304211	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1585173304211	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1585173304212	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1585173304212	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1585173304212	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1585173304212	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1585173304213	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1585173304213	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1585173304213	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1585173304213	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1585173304214	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1585173304214	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1585173304214	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1585173304214	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1585173304215	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1585173304215	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1585173304215	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1585173304215	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1585173304216	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1585173304216	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1585173304216	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1585173304264	Marionette	INFO	Listening on port 53061
+1585173304264	Marionette	DEBUG	Remote service is active
+1585173304423	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53075
+1585173304425	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1585173304426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1585173304476	Marionette	TRACE	[6442450945] Frame script loaded
+1585173304478	Marionette	TRACE	[6442450945] Frame script registered
+1585173304480	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"f41e6e59-3b2b-4b3c-afe1-05415c6130f2","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1585173304535	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://www.letskodeit.com"}]
+1585173304550	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
+1585173306154	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
+1585173307118	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for https://www.letskodeit.com/
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/1.10.2/dist/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1585173323618	Marionette	TRACE	[6442450945] Received DOM event pageshow for https://www.letskodeit.com/
+1585173323621	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1585173323643	Marionette	DEBUG	Closed connection 0
+[Child 7076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1[Parent 12068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4592, Chrome_ChildThread] WARNING: p1585173328851	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1585173328851	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1585173328851	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1585173328852	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1585173328852	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1585173328853	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1585173328854	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1585173328854	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1585173328855	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1585173328855	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1585173328856	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1585173328856	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1585173328856	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1585173328857	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1585173328857	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1585173328857	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1585173328857	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1585173328858	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1585173328858	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1585173328858	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1585173328859	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1585173328859	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1585173328859	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1585173328859	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1585173328859	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1585173328859	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1585173328859	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1585173328859	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1585173328860	Marionette	INFO	Stopped listening on port 53061
+1585173328860	Marionette	DEBUG	Remote service is inactive
+[GPU 9024, Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+r

@@ -1,0 +1,32 @@
+04/12/2020 09:24:29 PM - PDP - INFO - Element with locator: icon-plus found
+04/12/2020 09:24:29 PM - PDP - INFO - Clicked on element with Locator: icon-plus
+04/12/2020 09:24:29 PM - PDP - INFO - Element with locator: quantity_wanted found
+04/12/2020 09:24:29 PM - PDP - INFO - Qty is: 2
+04/12/2020 09:24:31 PM - PDP - INFO - Element with locator: div#uniform-group_1 > span found
+04/12/2020 09:24:31 PM - PDP - INFO - Element with locator: group_1 found
+04/12/2020 09:24:31 PM - PDP - INFO - Element with locator: //button[@name='Submit'] found
+04/12/2020 09:24:31 PM - PDP - INFO - Clicked on element with Locator: //button[@name='Submit']
+04/12/2020 09:24:33 PM - PDP - INFO - Element with locator: //span[@title="Continue shopping"] found
+04/12/2020 09:24:33 PM - PDP - INFO - Clicked on element with Locator: //span[@title="Continue shopping"]
+04/12/2020 09:24:37 PM - PDP - INFO - Waiting maximum: 10seconds to be clickable
+04/12/2020 09:24:37 PM - PDP - INFO - Element with Locator -> xpath, //a[@title="Black"]. Appeared on the webpage
+04/12/2020 09:24:37 PM - PDP - INFO - Element with locator: //a[@title="Black"] found
+04/12/2020 09:24:38 PM - PDP - INFO - Clicked on element with Locator: //a[@title="Black"]
+04/12/2020 09:24:40 PM - PDP - INFO - Element with locator: quantity_wanted found
+04/12/2020 09:24:40 PM - PDP - INFO - Element with locator: quantity_wanted found
+04/12/2020 09:24:40 PM - PDP - INFO - Typing 1 in the element with Locator type and Locator: -> id , quantity_wanted
+04/12/2020 09:24:42 PM - PDP - INFO - Element with locator: //button[@name='Submit'] found
+04/12/2020 09:24:42 PM - PDP - INFO - Clicked on element with Locator: //button[@name='Submit']
+04/12/2020 09:24:44 PM - PDP - INFO - Element with locator: layer_cart_product_quantity found
+04/12/2020 09:24:44 PM - PDP - INFO - 1
+04/12/2020 09:24:44 PM - PDP - INFO - Element with locator: //span[@title="Continue shopping"] found
+04/12/2020 09:24:44 PM - PDP - INFO - Clicked on element with Locator: //span[@title="Continue shopping"]
+04/12/2020 09:24:48 PM - PDP - INFO - Element with locator: //div[@class="shopping_cart"]/a found
+04/12/2020 09:24:48 PM - PDP - INFO - Hovered over element with Locator xpath, //div[@class="shopping_cart"]/a
+04/12/2020 09:24:50 PM - PDP - INFO - Element with locator: //dt[@class='first_item']//a[@class='ajax_cart_block_remove_link'] found
+04/12/2020 09:24:50 PM - PDP - INFO - Hovered over element with Locator xpath, //div[@class="shopping_cart"]/a. And clicked on the element with Locator: xpath, //dt[@class='first_item']//a[@class='ajax_cart_block_remove_link']
+04/12/2020 09:24:54 PM - PDP - INFO - Element with locator: //div[@class="shopping_cart"]/a/b found
+04/12/2020 09:24:56 PM - PDP - INFO - Clicked on element with Locator: //div[@class="shopping_cart"]/a/b
+04/12/2020 09:25:01 PM - PDP - INFO - Element with locator: summary_products_quantity found
+04/12/2020 09:25:01 PM - PDP - INFO - 1 Product
+04/12/2020 09:25:01 PM - PDP - INFO - 1 Product
