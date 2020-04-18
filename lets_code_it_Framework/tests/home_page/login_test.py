@@ -33,7 +33,8 @@ class LoginTest(unittest.TestCase):
         self.log_in_page.login('test@email.com', 'abcabcxyz')
 
         result = self.log_in_page.verify_login_failed()
-        self.ts.mark(result, "Failed Log in Unsuccessful")
+        # self.ts.mark(result, "Failed Login test is Unsuccessful")
+        assert result is True
 
         time.sleep(2)
 

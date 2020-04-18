@@ -18,16 +18,13 @@ class ErrorStatus(SeleniumDriver):
     def set_result(self, result, result_message):
         try:
             if result is not None:
-                if result is not True:
+                if result is True:
+                    self.result_list.append("PASS")
+                    self.logger.info("###VERIFICATION SUCCESSFUL " + result_message)
+                else:
                     self.result_list.append("FAIL")
                     self.logger.error("VERIFICATION FAILED " + result_message)
                     self.screenshots(result_message)
-                    """
-                        QUESTION WHY SCREENSHOT IS FIRED AFTER LAST TEST AND NOT HERE
-                        """
-                else:
-                    self.result_list.append("PASS")
-                    self.logger.info("###VERIFICATION SUCCESSFUL " + result_message)
             else:
                 self.result_list.append("FAILED")
                 self.logger.error("###VERIFICATION FAILED " + result_message)
