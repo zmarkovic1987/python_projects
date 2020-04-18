@@ -17,15 +17,15 @@ class ErrorStatus(SeleniumDriver):
                 else:
                     self.result_list.append('FAIL')
                     self.logger.error('### VERIFICATION FAILED ' + result_message)
-                    # self.screenshots(result_message)
+                    self.screenshots(result_message)
             else:
                 self.result_list.append('FAIL')
                 self.logger.error('### VERIFICATION FAILED / No result ' + result_message)
-                # self.screenshots(result_message)
+                self.screenshots(result_message)
         except:
             self.result_list.append('FAIL')
             self.logger.error('### SOMETHING IS GONE WRONG> Couldnt get result ' + result_message)
-            # self.screenshots(result_message)
+            self.screenshots(result_message)
 
     def mark(self, result, result_message):
         self.set_result(result, result_message)

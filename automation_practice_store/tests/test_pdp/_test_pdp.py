@@ -40,8 +40,8 @@ class TestPDP(unittest.TestCase):
         time.sleep(2)
 
         title_result = self.pdp_test.verify_title_matches("Order + My Store")
-        self.error_status.mark(title_result, " Title Verification failed")
+        self.error_status.mark(title_result, " Verify the Title")
 
         result = self.pdp_test.products_in_cart(1)
-        self.error_status.mark_final("Remove item Test", result, " Invalid number of products in the cart")
+        self.error_status.mark_final("Remove item Test", result, " Verify number of products in cart")
 

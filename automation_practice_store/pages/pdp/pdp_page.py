@@ -1,13 +1,13 @@
-from base.selenium_driver import SeleniumDriver
+from base.base_page import BasePage
 from selenium.webdriver.common.by import By
 import time
 import utilities.custom_logger as cl
 import logging
 
 
-class PDP(SeleniumDriver):
+class PDP(BasePage):
 
-    logger = cl.custom_logger(logging.DEBUG)
+    # logger = cl.custom_logger(logging.DEBUG)
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -153,7 +153,16 @@ class PDP(SeleniumDriver):
         return result
 
     def verify_title_matches(self, title_to_match):
-        actual_title = self.get_title()
-        self.logger.info(actual_title)
-        result = actual_title == title_to_match
-        return result
+        self.logger.info(title_to_match)
+        self.logger.info(self.get_title())
+
+        if title_to_match == self.get_title():
+            return True
+        else:
+            return False
+
+
+        # actual_title = self.get_title()
+        # self.logger.info(actual_title)
+        # result = actual_title == title_to_match
+        # return result

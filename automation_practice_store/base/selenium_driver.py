@@ -7,6 +7,7 @@ from selenium.common.exceptions import *
 from selenium.webdriver.support.select import Select
 import utilities.custom_logger as cl
 import logging
+import os
 
 
 class SeleniumDriver():
@@ -18,6 +19,32 @@ class SeleniumDriver():
 
     def get_title(self):
         return self.driver.title
+
+    def screenshots(self, result_message):
+        """
+        Takes a screenshot of current open web page
+        :param result_message:
+        :return:
+        """
+        # CREATE DIRECTORY AND FILE NAME
+        file_name = result_message + "." + str(round(time.time() * 1000)) + ".png"
+        sc_directory = "../screenshots/"
+        relative_file_name = sc_directory + file_name  # This gives us ../screenshots/34383234.png
+
+        # Locate current directory
+        current_directory = os.path.dirname(__file__)
+        self.logger.info("################################### " + current_directory)
+
+        destination_file = os.path.join(current_directory, relative_file_name)
+        destination_dir = os.path.join(current_directory, sc_directory)
+
+        try:
+            if not os.path.exists(destination_dir):
+                os.mkdir(destination_dir)
+            self.driver.save_screenshot(destination_file)  # Selenium methhod
+            self.logger.info("Screenshot " + file_name + " saved in the Directory: " + destination_dir)
+        except:
+            self.logger.error("Creating or saving Screenshot failed")
 
     def get_element(self, locator, locator_type=By.ID):
         element = None
