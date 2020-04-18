@@ -31,6 +31,7 @@ class PDP(SeleniumDriver):
     _remove_first_item_minicart = "//dt[@class='first_item']//a[@class='ajax_cart_block_remove_link']"
     # _items_in_cart = "ajax_cart_block_remove_link"  # class
     _items_in_cart = "cart-images"  # class
+    _qty_of_items_added = "layer_cart_product_quantity"
 
 
     # Actions
@@ -105,25 +106,35 @@ class PDP(SeleniumDriver):
         # else:
         #     self.logger.info('Failed to remove item from cart')
 
+    def go_to_cart(self):
+        self.click_element('//div[@class="shopping_cart"]/a/b', By.XPATH)
+
 
     def test_pdp1(self):
         self.click_on_add_qty()
         self.select_size_and_check()
         self.add_to_cart_click()
-        self.close_cart_popup()
 
     def test_pdp2(self):
+        self.close_cart_popup()
         self.color_black_click()
         self.type_qty_field()
         self.add_to_cart_click()
         self.cart_qty_check()
-        self.close_cart_popup()
 
     def test_pdp_remove_item(self):
+        self.close_cart_popup()
         self.remove_item_minicart()
+        self.go_to_cart()
+
+    def test_qty_of_items_added(self, num_qty):
+        actual = self.get_text_from_element(self._qty_of_items_added, By.ID)
+        # self.logger.info("####################    " + actual)
+        # self.logger.info("####################    " + str(num_qty))
+        result = actual == str(num_qty)
+        return result
 
     def products_in_cart(self, num_item):
-        self.click_element('//div[@class="shopping_cart"]/a/b', By.XPATH)
         time.sleep(5)
         items_in_cart = self.get_text_from_element('summary_products_quantity')
         self.logger.info(items_in_cart)
@@ -139,4 +150,10 @@ class PDP(SeleniumDriver):
 
         self.logger.info(num_item_strip)
         result = items_in_cart == num_item_strip
+        return result
+
+    def verify_title_matches(self, title_to_match):
+        actual_title = self.get_title()
+        self.logger.info(actual_title)
+        result = actual_title == title_to_match
         return result

@@ -22,6 +22,7 @@ class WebDriverFactory():
         """
 
         base_url = 'http://automationpractice.com/index.php?id_product=5&controller=product'
+        # base_url = 'http://automationpractice.com/'
 
         if self.browser == 'firefox':
             driver = webdriver.Firefox()

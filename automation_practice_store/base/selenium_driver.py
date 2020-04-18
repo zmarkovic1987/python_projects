@@ -16,6 +16,9 @@ class SeleniumDriver():
     def __init__(self, driver):
         self.driver = driver
 
+    def get_title(self):
+        return self.driver.title
+
     def get_element(self, locator, locator_type=By.ID):
         element = None
         try:
