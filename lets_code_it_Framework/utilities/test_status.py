@@ -26,7 +26,7 @@ class ErrorStatus(SeleniumDriver):
                     self.logger.error("VERIFICATION FAILED " + result_message)
                     self.screenshots(result_message)
             else:
-                self.result_list.append("FAILED")
+                self.result_list.append("FAIL")
                 self.logger.error("###VERIFICATION FAILED " + result_message)
                 self.screenshots(result_message)
         except:

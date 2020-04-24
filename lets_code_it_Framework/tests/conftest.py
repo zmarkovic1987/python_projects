@@ -3,13 +3,17 @@ py.test -s -v pytest_package\test_command_line_args.py --browser firefox
 """
 from selenium import webdriver
 from base.webdriver_factory import WebDriverFactory
+from pages.home_page.login_page import LoginPage
 import pytest
 
-@pytest.fixture(scope='class')
+@pytest.yield_fixture(scope='class')
 def one_time_setUp(browser, request):
     print('Running One time Set Up')
     wdf = WebDriverFactory(browser)
     driver = wdf.get_webdriver_instance()
+
+    lp = LoginPage(driver)
+    lp.login(user_name="test@email.com", password="abcabc")
 
     if request.cls is not None:
         request.cls.driver = driver
@@ -18,7 +22,7 @@ def one_time_setUp(browser, request):
     driver.quit()
     print('Running One time Teardown')
 
-@pytest.fixture()
+@pytest.yield_fixture()
 def setUp():
     print(' Once before every method')
     yield

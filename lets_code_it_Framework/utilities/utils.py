@@ -13,6 +13,7 @@ import random, string
 import utilities.custom_logger as cl
 import logging
 
+
 class Util(object):
 
     logger = cl.custom_logger(logging.INFO)

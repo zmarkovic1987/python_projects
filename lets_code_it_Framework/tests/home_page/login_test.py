@@ -30,6 +30,7 @@ class LoginTest(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_failed_login(self):
+        self.log_in_page.logout()
         self.log_in_page.login('test@email.com', 'abcabcxyz')
 
         result = self.log_in_page.verify_login_failed()
