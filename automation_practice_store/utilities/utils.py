@@ -78,33 +78,35 @@ class Util(object):
         else:
             return True
 
-    # def getAlphaNumeric(self, length, type='letters'):
-    #     """
-    #     Get random string of characters
-    #
-    #     Parameters:
-    #         length: Length of string, number of characters string should have
-    #         type: Type of characters string should have. Default is letters
-    #         Provide lower/upper/digits for different types
-    #     """
-    #     alpha_num = ''
-    #     if type == 'lower':
-    #         case = string.ascii_lowercase
-    #     elif type == 'upper':
-    #         case = string.ascii_uppercase
-    #     elif type == 'digits':
-    #         case = string.digits
-    #     elif type == 'mix':
-    #         case = string.ascii_letters + string.digits
-    #     else:
-    #         case = string.ascii_letters
-    #     return alpha_num.join(random.choice(case) for i in range(length))
-    #
-    # def getUniqueName(self, charCount=10):
-    #     """
-    #     Get a unique name
-    #     """
-    #     return self.getAlphaNumeric(charCount, 'lower')
+
+
+    def getAlphaNumeric(self, length, type='letters'):
+        """
+        Get random string of characters
+
+        Parameters:
+            length: Length of string, number of characters string should have
+            type: Type of characters string should have. Default is letters
+            Provide lower/upper/digits for different types
+        """
+        alpha_num = ''
+        if type == 'lower':
+            case = string.ascii_lowercase
+        elif type == 'upper':
+            case = string.ascii_uppercase
+        elif type == 'digits':
+            case = string.digits
+        elif type == 'mix':
+            case = string.ascii_letters + string.digits
+        else:
+            case = string.ascii_letters
+        return alpha_num.join(random.choice(case) for i in range(length))
+
+    def getUniqueName(self, charCount=10):
+        """
+        Get a unique name
+        """
+        return self.getAlphaNumeric(charCount, 'lower')
     #
     # def getUniqueNameList(self, listSize=5, itemLength=None):
     #     """

@@ -1,7 +1,6 @@
 from base.selenium_driver import SeleniumDriver
 
 
-
 class ErrorStatus(SeleniumDriver):
 
     def __init__(self, driver):
