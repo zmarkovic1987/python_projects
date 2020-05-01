@@ -42,3 +42,4 @@ class BasePage(SeleniumDriver):
             self.logger.error("Failed to get page title")
             print_stack()
             return False
+
