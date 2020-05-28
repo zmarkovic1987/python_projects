@@ -40,6 +40,7 @@ class ProductListingPage(BasePage):
         self.click_element(self._color_click, By.XPATH)
 
     def plp_test_1(self, i):
+        self.wait_for_element(self._list_view_type, By.CSS_SELECTOR, timeout=5)
         self.switch_view('List')
         self.nth_product_add_to_cart(i)
 

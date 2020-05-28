@@ -14,26 +14,26 @@ class TestPDP(unittest.TestCase):
         self.pdp_test = PDP(self.driver)
         self.error_status = ErrorStatus(self.driver)
 
-    @pytest.mark.run(order=1)
-    def test_pdp(self):
+    # @pytest.mark.run(order=1)
+    def test_a_pdp(self):
         self.pdp_test.test_pdp1()
-        time.sleep(2)
+        # time.sleep(2)
 
         result = self.pdp_test.test_qty_of_items_added(2)
         self.error_status.mark(result, "2 Items in the cart Failed")
 
-    @pytest.mark.run(order=2)
-    def test_2(self):
+    # @pytest.mark.run(order=2)
+    def test_b_2(self):
         self.pdp_test.test_pdp2()
-        time.sleep(2)
+        # time.sleep(2)
 
         result = self.pdp_test.test_qty_of_items_added(1)
         self.error_status.mark(result, "One item added to the cart Failed")
 
-    @pytest.mark.run(order=3)
-    def test_3(self):
+    # @pytest.mark.run(order=3)
+    def test_c_3(self):
         self.pdp_test.test_pdp_remove_item()
-        time.sleep(2)
+        # time.sleep(2)
 
         title_result = self.pdp_test.verify_title_matches("Order - My Store")
         self.error_status.mark(title_result, " Verify the Title")

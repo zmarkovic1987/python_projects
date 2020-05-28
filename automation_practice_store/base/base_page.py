@@ -42,3 +42,6 @@ class BasePage(SeleniumDriver):
         except:
             self.logger.error("Failed to get page title")
             return False
+
+    def refresh_page(self):
+        self.driver.refresh()

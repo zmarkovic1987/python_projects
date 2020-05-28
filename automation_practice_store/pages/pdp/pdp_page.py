@@ -76,6 +76,7 @@ class PDP(BasePage):
         self.click_element('//div[@class="shopping_cart"]/a/b', By.XPATH)
 
     def test_pdp1(self):
+        self.driver.get('http://automationpractice.com/index.php?id_product=5&controller=product')
         self.click_on_add_qty()
         self.select_size_and_check()
         self.add_to_cart_click()

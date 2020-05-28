@@ -115,6 +115,9 @@ class SeleniumDriver():
     def frame_switch(self, n=0):
         self.driver.switch_to.frame(n)
 
+    def frame_switch_default(self):
+        self.driver.switch_to.default_content()
+
     def wait_for_element(self, locator, locator_type=By.ID, timeout=10):
         element = None
         try:
@@ -132,9 +135,13 @@ class SeleniumDriver():
         return element
 
     def get_text_from_element(self, locator='', locator_type=By.ID, element=None):
-        if locator:
-            element = self.get_element(locator, locator_type)
-        return element.text
+        try:
+            if locator:
+                element = self.get_element(locator, locator_type)
+            actual_text = element.text
+            return actual_text
+        except:
+            self.logger.error("Finding text failed")
 
     def select_from_menu(self, text, menu_locator, menu_locator_type=By.ID):
         menu = self.get_element(menu_locator, menu_locator_type)
@@ -215,3 +222,15 @@ class SeleniumDriver():
     #             self.logger.error('Element with locator type and locator: ' + locator_type + locator + ' NOT Found')
     #     except:
     #         self.logger.error('Is displayed Exception')
+
+    def check_url(self, url_to_check):
+        try:
+            current_url = self.driver.current_url
+            self.logger.info('Current url is: ' + current_url)
+            if current_url == url_to_check:
+                self.logger.info('URL matches')
+                return True
+            else:
+                self.logger.info('URL doesnt match')
+        except:
+            self.logger.error('Couldnt get current URL')
