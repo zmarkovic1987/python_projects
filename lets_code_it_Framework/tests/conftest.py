@@ -6,6 +6,7 @@ from base.webdriver_factory import WebDriverFactory
 from pages.home_page.login_page import LoginPage
 import pytest
 
+
 @pytest.yield_fixture(scope='class')
 def one_time_setUp(browser, request):
     print('Running One time Set Up')

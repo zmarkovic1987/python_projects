@@ -14,7 +14,7 @@ class LoginTest(unittest.TestCase):
         self.log_in_page = LoginPage(self.driver)
         self.ts = ErrorStatus(self.driver)
 
-    @pytest.mark.run(order=2)
+    # @pytest.mark.run(order=2)
     def test_valid_login(self):
         # self.driver.get('https://learn.letskodeit.com/')
         self.log_in_page.login('test@email.com', 'abcabc')
@@ -28,7 +28,7 @@ class LoginTest(unittest.TestCase):
 
         time.sleep(2)
 
-    @pytest.mark.run(order=1)
+    # @pytest.mark.run(order=1)
     def test_failed_login(self):
         self.log_in_page.logout()
         self.log_in_page.login('test@email.com', 'abcabcxyz')
